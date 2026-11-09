@@ -1,93 +1,35 @@
-# 🐍 Minha Primeira Aplicação Django
+# Minha primeira aplicação Django! 🐍
 
-Projeto desenvolvido para a disciplina de **Django**, utilizando Python e o framework Django para criar uma página web simples.
+Este projeto foi desenvolvido como atividade prática da disciplina de **Cloud Computing**.
 
 ## 📌 Sobre o projeto
 
-Esta aplicação apresenta uma página HTML criada e disponibilizada por meio de uma aplicação Django.
-
-O objetivo é praticar os primeiros conceitos do framework, incluindo criação de projetos, aplicações, visualizações e rotas.
+Uma aplicação web simples criada utilizando Python e Django, com o objetivo de praticar o desenvolvimento, versionamento e publicação de aplicações na nuvem.
 
 ## 🚀 Tecnologias utilizadas
 
 - Python
 - Django
 - HTML5
-- Gunicorn
+- Git
+- GitHub
+- Render
 
-## 📂 Estrutura do projeto
+## 🌐 Aplicação publicada
 
-```text
-task-django/
-│
-├── config/
-│   ├── settings.py
-│   ├── urls.py
-│   ├── asgi.py
-│   └── wsgi.py
-│
-├── minha_app/
-│   ├── migrations/
-│   ├── views.py
-│   └── index.html
-│
-├── .gitignore
-├── manage.py
-└── requirements.txt
-```
+O projeto está hospedado na plataforma Render e pode ser acessado pelo link abaixo:
 
-## ⚙️ Como executar o projeto
+**[Acessar minha aplicação Django](https://task-django-ma9c.onrender.com/)**
 
-### 1. Clone o repositório
+## ☁️ Hospedagem na nuvem
 
-```bash
-git clone https://github.com/Mateus88B/task-django.git
-```
+A aplicação foi publicada utilizando a plataforma Render, permitindo que o site seja acessado pela internet através de uma URL pública.
 
-### 2. Entre na pasta
+## 🎯 Objetivo
 
-```bash
-cd task-django
-```
+Colocar em prática os conceitos de Cloud Computing, realizando o desenvolvimento de uma aplicação web, seu versionamento com Git e GitHub e sua implantação em um serviço de hospedagem na nuvem.
 
-### 3. Crie um ambiente virtual
+---
 
-```bash
-python -m venv venv
-```
-
-### 4. Ative o ambiente virtual
-
-No Git Bash:
-
-```bash
-source venv/Scripts/activate
-```
-
-### 5. Instale as dependências
-
-```bash
-pip install -r requirements.txt
-```
-
-### 6. Execute as migrações
-
-```bash
-python manage.py migrate
-```
-
-### 7. Inicie o servidor
-
-```bash
-python manage.py runserver
-```
-
-Acesse no navegador:
-
-http://127.0.0.1:8000/
-
-## 👨‍💻 Autor
-
-**Mateus Henrique**
-
-Projeto acadêmico desenvolvido para a disciplina de Django.
+**Disciplina:** Cloud Computing  
+**Projeto:** Minha primeira aplicação Django!
